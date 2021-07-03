@@ -1,9 +1,4 @@
-def funcao_yuri (lista):
-    for item in lista:
-        print(item)
+numeros = ["false", 3432, "true", 3 ,888]
 
-
-
-nomeMelhorParaViaravel = [1,2,3,4,5,6,7, "Monitor", "***", True, False]
-
-funcao_yuri(nomeMelhorParaViaravel)
+for i in range(len(numeros)):
+    print(i,":", numeros[i])
